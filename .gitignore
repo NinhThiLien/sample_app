@@ -30,4 +30,4 @@
 /config/master.key
 /config/credentials.yml.enc
 /config/database.yml
-/config/master.key.example
+/test
