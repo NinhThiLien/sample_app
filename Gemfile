@@ -12,6 +12,7 @@ gem "sass-rails", "~> 5.0"
 gem "sqlite3"
 gem "turbolinks", "~> 5"
 gem "uglifier", ">= 1.3.0"
+gem "rails-i18n"
 
 group :development, :test do
   gem "byebug", platforms: [:mri, :mingw, :x64_mingw]

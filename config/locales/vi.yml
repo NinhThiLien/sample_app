@@ -1,0 +1,22 @@
+vi:
+  static_pages:
+    home:
+      title: "Trang chủ"
+      content: "App vi du"
+      content1: "Day la trang web cua "
+      content2: "ung dung moi"
+    help:
+      title: "Tro giup"
+      content: "Nhan su tro giup tu trang "
+      content1: "Neu muon xem vi du thi xem tren"
+      content2: "sach"
+    contact:
+      title: "Lien he"
+      contact: "Liên hệ với Ruby on Rails Tutorial về ứng dụng mẫu tại"
+    about:
+      title: "Gioi thieu"
+      content: "Day"
+      content1: "la mot"
+      content2: "va"
+      content3: "de day phat trien web voi"
+      content4: "Day la mot ung dung huong dan."
