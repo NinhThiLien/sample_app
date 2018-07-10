@@ -29,12 +29,13 @@ en:
       content: "This will be a signup page for new users."
   
   layouts:
-    _footer:
+    footer:
       title1: "About"
       title2: "Contact"
       title3: "News"
       content: "by"
-    _header:
+      content1: "The"
+    header:
       title1: "Home"
       title2: "Help"
       title3: "Login"
