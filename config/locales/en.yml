@@ -1,10 +1,12 @@
 en:
+  title-1: "Ruby on Rails Tutorial Sample App"
   static_pages:
     home:
       title: "Home"
-      content: "Sample App"
+      content: "Welcome to the Sample App"
       content1: "This is the home page for the"
       content2: "sample application"
+      content3: "Sign up now!"
     help:
       title: "Help"
       content: "Get help on the Ruby on Rails Tutorial at the"
@@ -12,7 +14,7 @@ en:
       content2: "book"
     contact:
       title: "Contact"
-      contact: "Contact the Ruby on Rails Tutorial about the sample app at the"
+      content: "Contact the Ruby on Rails Tutorial about the sample app at the"
     about:
       title: "About"
       content: "The"
@@ -20,3 +22,20 @@ en:
       content2: "and"
       content3: "to teach web development with"
       content4: "This is the sample application for the tutorial."
+
+  users:
+    new:
+      title: "Sign up"
+      content: "This will be a signup page for new users."
+  
+  layouts:
+    _footer:
+      title1: "About"
+      title2: "Contact"
+      title3: "News"
+      content: "by"
+    _header:
+      title1: "Home"
+      title2: "Help"
+      title3: "Login"
+
