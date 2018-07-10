@@ -3,9 +3,10 @@ vi:
   static_pages:
     home:
       title: "Trang chủ"
-      content: "App vi du"
+      content: "Chao mung ban den voi Sample App"
       content1: "Day la trang web cua "
       content2: "ung dung moi"
+      content3: "Dang nhap"
     help:
       title: "Tro giup"
       content: "Nhan su tro giup tu trang "
@@ -13,7 +14,7 @@ vi:
       content2: "sach"
     contact:
       title: "Lien he"
-      contact: "Liên hệ với Ruby on Rails Tutorial về ứng dụng mẫu tại"
+      content: "Liên hệ với Ruby on Rails Tutorial về ứng dụng mẫu tại"
     about:
       title: "Gioi thieu"
       content: "Day"
@@ -21,3 +22,19 @@ vi:
       content2: "va"
       content3: "de day phat trien web voi"
       content4: "Day la mot ung dung huong dan."
+  users:
+    new:
+      title: "Dang nhap"
+      content: "Đây sẽ là trang đăng ký cho người dùng mới."
+
+  layouts:
+    footer:
+      title1: "Gioi thieu"
+      title2: "Lien he"
+      title3: "Tin tuc"
+      content: "boi"
+      content1: ""
+    header:
+      title1: "Trang chu"
+      title2: "Tro giup"
+      title3: "Dang nhap"
