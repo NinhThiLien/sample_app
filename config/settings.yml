@@ -2,4 +2,6 @@ maximum:
   name_length: 50
   email_length: 255
 minimum:
-  passwor_length: 6
+  password_length: 6
+size:
+  userhelp_size: 80
