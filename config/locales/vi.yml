@@ -1,22 +1,35 @@
 vi:
   title-1: "Huong dan Ruby and Rails"
+  title_home: "Trang chu"
+  title_about: "Gioi thieu"
+  title_help: "Tro giup"
+  title_signup: "Dang ki"
+  title_contact: "Lien he"
+  title_login: "Dang nhap"
+  title_news: "Tin Tuc"
+
+  name: "Ten dang nhap"
+  email: "Dia chi email"
+  password: "Mat khau"
+  password_confirmation: "Nhac lai mat khau"
+  content_fail: "Nguoi dung khong ton tai! Ban co the dang ki."
+  content_success: "Chao mung ban den voi Sample App!"
+
+  content_form: "Trong bieu mau gom"
+  error: "loi"
+
   static_pages:
     home:
-      title: "Trang chủ"
       content: "Chao mung ban den voi Sample App"
       content1: "Day la trang web cua "
       content2: "ung dung moi"
-      content3: "Dang nhap"
     help:
-      title: "Tro giup"
       content: "Nhan su tro giup tu trang "
       content1: "Neu muon xem vi du thi xem tren"
       content2: "sach"
     contact:
-      title: "Lien he"
       content: "Liên hệ với Ruby on Rails Tutorial về ứng dụng mẫu tại"
     about:
-      title: "Gioi thieu"
       content: "Day"
       content1: "la mot"
       content2: "va"
@@ -24,17 +37,13 @@ vi:
       content4: "Day la mot ung dung huong dan."
   users:
     new:
-      title: "Dang nhap"
-      content: "Đây sẽ là trang đăng ký cho người dùng mới."
+      content: "Tao tai khoan"
 
   layouts:
     footer:
-      title1: "Gioi thieu"
-      title2: "Lien he"
-      title3: "Tin tuc"
       content: "boi"
       content1: ""
-    header:
-      title1: "Trang chu"
-      title2: "Tro giup"
-      title3: "Dang nhap"
+
+shared:
+    error_messages:
+

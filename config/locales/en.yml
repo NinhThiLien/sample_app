@@ -1,22 +1,35 @@
 en:
   title-1: "Ruby on Rails Tutorial Sample App"
+  title_home: "Home"
+  title_about: "About"
+  title_help: "Help"
+  title_signup: "Sign up"
+  title_contact: "Contact"
+  title_login: "Login"
+  title_news: "News"
+
+  name: "Name"
+  email: "Email"
+  password: "Password"
+  password_confirmation: "Confirmation"
+  content_fail: "User dose not exits! You can sign up."
+  content_success: "Welcome to the Sample App!"
+
+  content_form: "The form contains"
+  error: "error"
+
   static_pages:
     home:
-      title: "Home"
       content: "Welcome to the Sample App"
       content1: "This is the home page for the"
       content2: "sample application"
-      content3: "Sign up now!"
     help:
-      title: "Help"
       content: "Get help on the Ruby on Rails Tutorial at the"
       content1: "To get help on this sample app, see the"
       content2: "book"
     contact:
-      title: "Contact"
       content: "Contact the Ruby on Rails Tutorial about the sample app at the"
     about:
-      title: "About"
       content: "The"
       content1: "is a"
       content2: "and"
@@ -25,18 +38,15 @@ en:
 
   users:
     new:
-      title: "Sign up"
-      content: "This will be a signup page for new users."
-  
+      content: "Create my account"
+
   layouts:
     footer:
-      title1: "About"
-      title2: "Contact"
-      title3: "News"
       content: "by"
       content1: "The"
-    header:
-      title1: "Home"
-      title2: "Help"
-      title3: "Login"
+
+  shared:
+    error_messages:
+      content: "The form contains"
+      error: "error"
 
