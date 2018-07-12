@@ -7,6 +7,11 @@ en:
   title_contact: "Contact"
   title_login: "Login"
   title_news: "News"
+  title_user: "Users"
+  title_profile: "Profile"
+  title_setting: "Settings"
+  title_logout: "Log out"
+  account: "Account"
 
   name: "Name"
   email: "Email"
@@ -17,6 +22,7 @@ en:
 
   content_form: "The form contains"
   error: "error"
+  error_invalid: "Invalid email/password combination"
 
   static_pages:
     home:
@@ -44,9 +50,9 @@ en:
     footer:
       content: "by"
       content1: "The"
+      content2: "English"
+      content3: "Vietnamese"
 
-  shared:
-    error_messages:
-      content: "The form contains"
-      error: "error"
-
+  sessions:
+    new:
+      content1: "New user?"
