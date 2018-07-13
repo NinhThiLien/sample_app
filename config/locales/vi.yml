@@ -7,6 +7,11 @@ vi:
   title_contact: "Lien he"
   title_login: "Dang nhap"
   title_news: "Tin Tuc"
+  title_user: "Nguoi dung"
+  title_profile: "Ca nhan"
+  title_setting: "Cai dat"
+  title_logout: "Dang xuat"
+  account: "Tai khoan"
 
   name: "Ten dang nhap"
   email: "Dia chi email"
@@ -15,8 +20,9 @@ vi:
   content_fail: "Nguoi dung khong ton tai! Ban co the dang ki."
   content_success: "Chao mung ban den voi Sample App!"
 
-  content_form: "Trong bieu mau gom"
+  content_form: "Trong bieu mau chua"
   error: "loi"
+  error_invalid: "Dia chi email hoac mat khau khong hop le"
 
   static_pages:
     home:
@@ -43,7 +49,9 @@ vi:
     footer:
       content: "boi"
       content1: ""
+      content2: "Tieng Anh"
+      content3: "Tieng Viet"
 
-shared:
-    error_messages:
-
+  sessions:
+    new:
+      content1: "Nguoi dung moi?"
