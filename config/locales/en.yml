@@ -56,3 +56,4 @@ en:
   sessions:
     new:
       content1: "New user?"
+      content2: "Remember me on this computer"
