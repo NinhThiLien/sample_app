@@ -12,6 +12,9 @@ vi:
   title_setting: "Cai dat"
   title_logout: "Dang xuat"
   account: "Tai khoan"
+  title: "Sample App"
+  title6: "Da kich hoat tai khoan!"
+  title7: "Tai khoan chua duoc kich hoat"
 
   name: "Ten dang nhap"
   email: "Dia chi email"
@@ -72,3 +75,12 @@ vi:
     new:
       content1: "Nguoi dung moi?"
       content2: "Luu lai tren may tinh nay"
+    create:
+      warning: "Tai khoan chua duoc kich hoat. Hay check email cua ban."
+
+  user_mailer:
+    account_activation:
+      title1: "Kich hoat tai khoan"
+      content1: "Chao mung ban den voi Sample App! Hay click vao link duoi day de kich hoat tai khoan."
+      content2: "Kich hoat"
+      content3: "Xin chao"

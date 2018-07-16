@@ -12,6 +12,9 @@ en:
   title_setting: "Settings"
   title_logout: "Log out"
   account: "Account"
+  title: "Sample App"
+  title6: "Account activated!"
+  title7: "Invalid activation link"
 
   name: "Name"
   email: "Email"
@@ -23,7 +26,6 @@ en:
   content_form: "The form contains"
   error: "error"
   error_invalid: "Invalid email/password combination"
-
   static_pages:
     home:
       content: "Welcome to the Sample App"
@@ -73,3 +75,12 @@ en:
     new:
       content1: "New user?"
       content2: "Remember me on this computer"
+    create:
+      warning: "Account not activated. Check your email for the activation link."
+
+  user_mailer:
+    account_activation:
+      title1: "Account activation"
+      content1: "Welcome to the Sample App! Click on the link below to activate your account:"
+      content2: "Activate"
+      content3: "Hi"
