@@ -7,3 +7,5 @@ size:
   userhelp_size: 80
   item_page: 5
   img: 50
+limit:
+  time: 2
