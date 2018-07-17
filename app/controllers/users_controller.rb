@@ -1,17 +1,18 @@
 class UsersController < ApplicationController
   before_action :load_user, only: [:edit, :update, :show, :destroy]
-  before_action :logged_in_user, excpet: [:new, :create]
+  before_action :logged_in_user, except: [:new, :create]
   before_action :correct_user, only: [:edit, :update]
   before_action :admin_user, only: :destroy
 
   def index
-    @users = User.all.page(params[:page]).per(Settings.size.item_page)
+    @users = User.where(activated: true).page(params[:page])
+                                        .per(Settings.size.item_page)
   end
 
   def show
-    return if @user
+    return if @user&.activated
     flash[:fail] = t("content_fail")
-    redirect_to signup_path
+    redirect_to root_path
   end
 
   def new
@@ -21,9 +22,9 @@ class UsersController < ApplicationController
   def create
     @user = User.new user_params
     if @user.save
-      log_in @user
+      @user.send_activation_email
       flash[:success] = t("content_success")
-      redirect_to @user
+      redirect_to root_url
     else
       render :new
     end
