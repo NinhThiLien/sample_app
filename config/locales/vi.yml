@@ -44,6 +44,22 @@ vi:
   users:
     new:
       content: "Tao tai khoan"
+    update:
+      content_profile: "Cap nhap thanh cong"
+    destroy:
+      content_destroy1: "Xoa nguoi dung thanh cong"
+      content_destroy2: "Ban khong the xoa nguoi dung nay"
+    show:
+      content1: "Hay dang nhap vao"
+    index:
+      title: "Tat ca nguoi dung"
+    user:
+      title: "Ban co chac khong?"
+    edit:
+      title1: "Chinh sua thong tin"
+      content_save: "Luu thay doi"
+      update_profile: "Cap nhap profile"
+      change: "Thay doi"
 
   layouts:
     footer:

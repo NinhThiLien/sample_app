@@ -45,6 +45,22 @@ en:
   users:
     new:
       content: "Create my account"
+    update:
+      content_profile: "Profile updated"
+    destroy:
+      content_destroy1: "User deleted"
+      content_destroy2: "You can't delete this user"
+    show:
+      content1: "Please log in"
+    index:
+      title: "All Users"
+    user:
+      title: "You sure?"
+    edit:
+      title1: "Edit user"
+      content_save: "Save changes"
+      update_profile: "Update your profile"
+      change: "Change"
 
   layouts:
     footer:
