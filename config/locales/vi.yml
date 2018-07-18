@@ -84,3 +84,21 @@ vi:
       content1: "Chao mung ban den voi Sample App! Hay click vao link duoi day de kich hoat tai khoan."
       content2: "Kich hoat"
       content3: "Xin chao"
+    password_reset:
+      title1: "Dat lai mat khau"
+      content1: "De thay doi mat khau hay click vao link duoi day:"
+      content2: "Link nay co hieu luc trong 2 tieng."
+      content3: "Neu ban khong yeu cau dat lai mat khau thi vui long bo qua email nay va van giu nguyen mat khau cu."
+
+  password_reset:
+    create:
+      info: "Email huong dan cai dat lai mat khau da duoc gui"
+      danger: "Khong tim thay dia chi Email"
+    check_expiration:
+      danger: "Da het han dat lai mat khau."
+    edit:
+      reset_pass: "Dat lai mat khau"
+      update_pass: "Cap nhat mat khau"
+    new:
+      forgot_pass: "Quen mat khau"
+
