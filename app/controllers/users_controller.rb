@@ -10,6 +10,7 @@ class UsersController < ApplicationController
   end
 
   def show
+    @microposts = @user.microposts.all.page params[:page]
     return if @user&.activated
     flash[:fail] = t("content_fail")
     redirect_to root_path
